@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(102, 102, 230);
+    .logo{
+        img{
+            width: 250px;
+            height: 150px;
+        }
+    }
+    ul{
+        display: flex;
+        li{
+            margin-left: 15px;
+            color: white;
+        }
+    }
+    
+}

@@ -1,0 +1,40 @@
+.form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-content {
+        width: 400px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid blue;
+        border-radius: 15px;
+
+        .MuiFormControl-root {
+            width: 70%;
+            margin-bottom: 15px;
+            
+        }
+
+        h1 {
+            color: blue;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            width: 200px;
+            height: 40px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 15px;
+        }
+
+
+    }
+}
