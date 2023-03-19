@@ -32,7 +32,7 @@ export const Form = () => {
             swal("Unsuccesfull!", "error happened!", "error");
         })
     }
-    const { name, surname, userName, password } = userData;
+    const { name } = userData;
 
 
     return (
